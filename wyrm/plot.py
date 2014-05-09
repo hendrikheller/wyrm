@@ -134,8 +134,8 @@ def interpolate_2d(x, y, z):
 
     Returns
     -------
-    X, Y, Z : 1d array, 1d array, 2d array
-        ``Z`` is a 2d array ``[min(x)..max(x), [min(y)..max(y)]`` with
+    xx, yy, zz : 1d array, 1d array, 2d array
+        ``zz`` is a 2d array ``[min(x)..max(x), [min(y)..max(y)]`` with
         the interpolated values as values.
 
     """
